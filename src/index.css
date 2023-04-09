@@ -7,7 +7,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.darkmode{
+  background-color: black;
+  color:white;
+
+}
+.white{
+  background-color: white;
+  color:black;
+}
+.input-bar{
+  width:95%;
+  outline-style:none;
+  background-color: white;
+  
+  color:'black';
+  margin:0.5px;
+  border-radius: 10px;
+}
+.dark-input-bar{
+  border-radius: 10px;
+  margin:0.5px;
+  color:white;
+  
+  width:96%;
+  outline-style:none;
+  background-color: black;
 }
